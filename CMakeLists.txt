@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.20)
+project(UtilityLibraries)
+
+add_subdirectory(CrossPlatformWindowAndUtility)
+add_subdirectory(OpenCLAbstractions)
+add_subdirectory(ResourceManager)
