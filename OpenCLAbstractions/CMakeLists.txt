@@ -8,7 +8,7 @@ set(SOURCE_FILES
 )
 
 include_directories(${PROJECT_SOURCE_DIR}/dependencies/OpenCL/inc)
-link_directories(${PROJECT_SOURCE_DIR}/dependencies/OpenCL/lib/x64)
+link_directories(${PROJECT_SOURCE_DIR}/dependencies/OpenCL/lib)
 
 add_executable(OpenCLAbstractionsExample ${SOURCE_FILES} )
 
